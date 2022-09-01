@@ -16,4 +16,4 @@ helm repo add spark-operator https://googlecloudplatform.github.io/spark-on-k8s-
 
 helm install my-release spark-operator/spark-operator --namespace spark-operator --create-namespace
 
-kubectl apply -f ~/spark-on-k8s-operator/manifest/spark-application-rbac/spark-application-rbac.yaml 
+kubectl apply -f ~/spark-on-k8s-operator-new/manifest/spark-application-rbac/spark-application-rbac.yaml 
